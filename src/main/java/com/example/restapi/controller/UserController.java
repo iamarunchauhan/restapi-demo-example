@@ -22,6 +22,6 @@ public class UserController {
 	@GetMapping("/rto")
 	public String getRtoDetails() {
 		logger.info("Inside rto API");
-		return "RTO Details is available!";
+		return "RTO Details are available now!";
 	}
 }
