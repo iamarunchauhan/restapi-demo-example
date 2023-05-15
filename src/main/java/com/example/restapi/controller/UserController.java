@@ -24,4 +24,10 @@ public class UserController {
 		logger.info("Inside rto API");
 		return "RTO Details is available!";
 	}
+	
+	@GetMapping("/ownerdettails")
+	public String getOwnerDetails() {
+		logger.info("Inside rto API");
+		return "Owners Details is available!";
+	}
 }
