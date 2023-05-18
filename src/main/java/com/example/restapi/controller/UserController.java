@@ -19,7 +19,7 @@ public class UserController {
 		return "Users Details are available!";
 	}
 	
-	@GetMapping("/rto")
+	@GetMapping("/owenerdetails")
 	public String getRtoDetails() {
 		logger.info("Entry : Inside rto API");
 		return "RTO Details is available!";
