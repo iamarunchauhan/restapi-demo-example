@@ -24,10 +24,4 @@ public class UserController {
 		logger.info("Entry : Inside rto API");
 		return "RTO Details is available!";
 	}
-	
-	@GetMapping("/admin")
-	public String getRtoDetails() {
-		logger.info("Entry : Inside Admin API");
-		return "Admin Details is available!";
-	}
 }
